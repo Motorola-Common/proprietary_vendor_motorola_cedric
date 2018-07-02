@@ -168,7 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/cedric/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/motorola/cedric/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/motorola/cedric/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
     vendor/motorola/cedric/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/cedric/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
@@ -882,8 +882,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/cedric/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libHu.so:system/vendor/lib/libHu.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libHui.so:system/vendor/lib/libHui.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
