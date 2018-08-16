@@ -18,4 +18,15 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),cedric)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.hardware.sensorscalibrate-V1.0-java
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
 endif

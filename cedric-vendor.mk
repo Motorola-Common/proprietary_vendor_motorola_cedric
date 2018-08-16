@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/cedric/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/motorola/cedric/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/cedric/proprietary/vendor/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
@@ -299,6 +300,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_s5k4h8_video_full.so:system/vendor/lib/libchromatix_s5k4h8_video_full.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libdiag_system.so:system/vendor/lib/libdiag_system.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libflash_aw3641.so:system/vendor/lib/libflash_aw3641.so \
@@ -421,6 +423,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libmot_gpu_mapper.so:system/vendor/lib/libmot_gpu_mapper.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libqmi_cci_system.so:system/vendor/lib/libqmi_cci_system.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
@@ -457,4 +460,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libts_face_beautify_jni.so:system/vendor/lib/libts_face_beautify_jni.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/motorola/cedric/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so
+    vendor/motorola/cedric/proprietary/vendor/lib/sensors.iio.so:system/vendor/lib/sensors.iio.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libqmi_cci_system.so:system/vendor/lib64/libqmi_cci_system.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/sensors.iio.so:system/vendor/lib64/sensors.iio.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.sensorscalibrate-V1.0-java
