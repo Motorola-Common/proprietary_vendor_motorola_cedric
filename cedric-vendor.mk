@@ -473,4 +473,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libts_face_beautify_jni.so:system/vendor/lib/libts_face_beautify_jni.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so
+    vendor/motorola/cedric/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so
