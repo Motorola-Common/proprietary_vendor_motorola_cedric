@@ -16,9 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/cedric/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
     vendor/motorola/cedric/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/motorola/cedric/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/cedric/proprietary/vendor/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
@@ -171,18 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_postproc.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so \
@@ -326,7 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -361,7 +346,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_imx338.so:system/vendor/lib/libmmcamera_imx338.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_imx362_eeprom.so:system/vendor/lib/libmmcamera_imx362_eeprom.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
@@ -416,7 +400,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_s5k2l7_eeprom.so:system/vendor/lib/libmmcamera_s5k2l7_eeprom.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:system/vendor/lib/libmmcamera_s5k3p3_eeprom.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
@@ -424,7 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:system/vendor/lib/libmmcamera_sony_rumba_eeprom.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
